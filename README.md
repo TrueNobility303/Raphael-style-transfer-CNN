@@ -16,7 +16,7 @@
 ## 文件说明
 
 * \net 定义网络模型
-* \old 旧有代码，包括正则化探索，使用PatchGAN的探索，以及用卷积作鉴定的部分尝试，一些旧有代码中运用的辅助函数等
+* \old 旧有代码，包括正则化探索，边缘提取增强等探索，使用PatchGAN的探索，以及用卷积作鉴定的部分尝试，一些旧有代码中运用的辅助函数等
 * transfer.py off-line的Gatys风格迁移方法
 * end2end_transfer.py on-line的Gatys风格迁移方法，在线方法也即端到端的训练方法
 * cycle.py 在Gatys方法中加入逆向网络支持循环一致
