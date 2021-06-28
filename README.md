@@ -13,8 +13,14 @@
 在相同的架构下，在encode和decoder之间加入控制风格的模块，可以实现任意风格迁移。任意风格迁移的关键，在于对储存图像风格的信息的理解。对其理解不同，也即SwapStyle和AdaIN两种不同的，任意风格迁移的方法。在统一的架构下，对比两种方法，旨在增强对图像风格信息的理解。
 
 
+## 文件说明
 
-
-
+* \net 定义网络模型
+* \old 旧有代码，包括正则化探索，使用PatchGAN的探索，以及用卷积作鉴定的部分尝试，一些旧有代码中运用的辅助函数等
+* transfer.py off-line的Gatys风格迁移方法
+* end2end_transfer.py on-line的Gatys风格迁移方法，在线方法也即端到端的训练方法
+* cycle.py 在Gatys方法中加入逆向网络支持循环一致
+* StyleSwap.py 任意风格迁移
+* adain.py AdaIN任意风格迁移
 
 
