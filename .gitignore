@@ -1,0 +1,11 @@
+/__pycache__
+/backup
+/checkpoints
+/datasets
+/dump
+/images
+/logs
+/positive_results
+/pth
+/results
+/test_images
