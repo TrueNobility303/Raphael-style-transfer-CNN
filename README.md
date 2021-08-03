@@ -1,5 +1,17 @@
 # Raphael-style-transfer
 
+## Abstract
+
+We use related methods based on convolutional neural networks to achieve style transfer.
+
+The network that realizes style transfer is unified in a unified framework based on generator (endoer-decoder)-discriminator, and based on the unified architecture, the methods in some classic papers are implemented and used in Raphael's style transfer.
+
+For the most basic **Gatys method**, we use a more efficient generator based on a fully-convolution-network fully-convolution-network instead of the original method to speed up the training process of style transfer. And implemented and explored the offline (off-line) and online (on-line) methods respectively. And based on the idea of cycle consistency in **CycleGAN**, an inverse generator is added to the Gatys method.
+
+In view of the characteristics of Raphael's paintings, fine structures are used to support higher resolution, and image processing methods such as grayscale and edge enhancement are used as preprocessing processes to enhance the style transfer effect.
+
+Under the same architecture, adding a module which is designed for style control between encoder and decoderr can realize **arbitrary style transfer**. The key to arbitrary style transfertransfer lies in the understanding of the information stored in the image style. The different understandings leads to two different representative methods, that is, **SwapStyle** and **AdaIN**. Under a unified framework, the two methods are compared to enhance the understanding of image style information.
+
 ## 摘要
 
 使用基于卷积神经网络的相关方法实现风格迁移
