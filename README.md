@@ -12,6 +12,16 @@ In view of the characteristics of Raphael's paintings, fine structures are used 
 
 Under the same architecture, adding a module which is designed for style control between encoder and decoderr can realize **arbitrary style transfer**. The key to arbitrary style transfertransfer lies in the understanding of the information stored in the image style. The different understandings leads to two different representative methods, that is, **SwapStyle** and **AdaIN**. Under a unified framework, the two methods are compared to enhance the understanding of image style information.
 
+## Files
+
+* \net: codes of neural networks
+* \old: the old codes
+* transfer.py: codes of the off-line Gatys method 
+* end2end_transfer.py: codes of the on-line Gatys method 
+* cycle.py:  introducing cycle consistency in Gatys method
+* StyleSwap.py: arbitrary style transfer with StyleSwap
+* adain.py: arbitrary style transfer with AdaIN
+
 ## 摘要
 
 使用基于卷积神经网络的相关方法实现风格迁移
